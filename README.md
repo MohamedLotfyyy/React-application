@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# React Application for internship:
+During my internship at PlusOneHealth. I implemented a user form that collects user data such as name and email. In addition, Integrated a payment system using Stripe for smooth and secure transactions. Furthermore, I Implemented a full file upload system, including multi-file upload, progress bar, drag and drop functionality, delete upload, and byte chunking.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
