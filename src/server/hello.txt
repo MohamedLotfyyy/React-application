@@ -1,0 +1,36 @@
+// const express = require('express');
+// const multer = require('multer');
+// const cors = require('cors');
+// const fs = require('fs');
+// const axios = require('axios');
+
+// const app = express();
+
+// const storage = multer.diskStorage({
+//   destination: function (req, file, callback) {
+//     callback(null, __dirname + '/fileUpload');
+//   },
+//   filename: function (req, file, callback) {
+//     callback(null, file.originalname);
+//   }
+// });
+
+// const upload = multer({ storage });
+
+// app.use(cors());
+// app.use(express.json());
+
+// app.get('/fileUpload', (req, res) => {
+//   res.send('Hello World!');
+// });
+
+// app.post('/fileUpload', upload.single('file'), (req, res) => {
+//   const totalChunks = req.headers['x-total-chunks'];
+//   const chunkIndex = parseInt(req.headers['x-chunk-index']);
+//   const originalFilename = req.headers['x-original-filename'];
+//   const filePath = __dirname + '/fileUpload/' + originalFilename;
+// });
+
+// app.listen(4000, () => {
+//   console.log('Server is running on port 4000');
+// });

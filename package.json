@@ -1,0 +1,82 @@
+{
+  "name": "dropzone_upload",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@flowjs/flow.js": "^2.14.1",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "@stripe/react-stripe-js": "^2.1.1",
+    "@stripe/stripe-js": "^1.54.1",
+    "@syncfusion/ej2-react-inputs": "^22.1.38",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@uppy/core": "^3.3.0",
+    "@uppy/dashboard": "^3.4.1",
+    "@uppy/drag-drop": "^3.0.2",
+    "@uppy/file-input": "^3.0.2",
+    "@uppy/progress-bar": "^3.0.2",
+    "@uppy/react": "^3.1.2",
+    "@uppy/status-bar": "^3.2.1",
+    "@uppy/xhr-upload": "^3.3.1",
+    "antd": "^5.6.4",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "filepond": "^4.30.4",
+    "filepond-plugin-file-validate-size": "^2.2.8",
+    "filepond-plugin-image-preview": "^4.6.11",
+    "fine-uploader-wrappers": "^1.0.1",
+    "firebase": "^10.0.0",
+    "flow-js": "^0.6.7",
+    "formik": "^2.4.2",
+    "install": "^0.13.0",
+    "multer": "^1.4.5-lts.1",
+    "npm": "^9.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-filepond": "^7.1.2",
+    "react-flow-renderer": "^10.3.17",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "resumable": "^0.0.1-1",
+    "resumablejs": "^1.1.0",
+    "spark-md5": "^3.0.2",
+    "stripe": "^12.13.0",
+    "uui": "^1.0.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

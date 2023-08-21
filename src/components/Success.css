@@ -1,0 +1,28 @@
+.success_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .text_press {
+    margin-bottom: 8px; /* Adjust the margin bottom as desired */
+    font-size: 28px;
+  }
+  
+  h3 {
+      font-size: 24px;
+    margin-bottom: 8px; /* Adjust the margin bottom as desired */
+  }
+  
+  #click_btn {
+    margin-top: 8px; /* Adjust the margin top as desired */
+  }
+  
+#click_btn{
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom:20px;
+}
